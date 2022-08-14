@@ -1,0 +1,82 @@
+Data Quality   - 7 marks
+========================
+duplicate  records - 1 
+target label missing - 1
+data integrity - 2 
+	order time and delivery time check
+	negative distance
+	rating check - zero value acceptable 	
+	negative discount 
+missing values - 3
+	discount  - replace with zero
+	delivery charges - replace with zero
+	surge charges - replace with zero
+	packagind charges - replace with zero
+	tip - replace with zero
+	order id - replace with some unique value or drop it 
+	promo code - - replace with new category
+
+Data Transformation - 10
+========================
+To be computed -- 4.5
+	Delivery time requird for actual delivery in minutes   - from DateTime and Delivery Time - 1                 --- 2 
+	Bill amount from Cost - Discount + Delivery charges + Surge charges + Packaging charges	+ ST + Tip           --- 0.5 
+	Order type - veg / nonveg / mix from Items                                                                   --- 2
+
+To be converted    -- 0.5
+	Status to binary 0 /1
+
+Dummy variables - 1.5
+	PromoCode
+	Payment mode
+	Membership
+
+Normalization of numeric columns - 1.5
+
+Data Reduction - 2
+To be dropped - 2
+	ID
+	Provider
+	DateTime
+	Delivery Time
+	PromoCode
+	Payment mode
+	Items
+	Membership
+
+EDA - 6
+========================
+Univariate analysis  of each attribute- 2
+	Packaging charges - same values - can be dropped
+	ST - same values - can be dropped
+
+Coorelation between predictors  - 2
+find and drop highly correlated attribtues
+	distance and delivery time
+	wallet and discount
+
+Relation between each predictor and target - 2
+	Look specificaly for
+		Delivery time 
+		Amount 
+		Status
+		Discount
+		Payment modes
+		
+Feature selection and Modeling - 5
+==================================
+Backward stepwise feature elimination - 5
+roughly each iteration 1 mark
+	In each iteration
+		feature selection - 0.25 
+		model building - 0.5
+		error observation and conclusion about included feature - 0.25
+		
+
+Model explanation - 2 
+=====================
+Generalized model obtained with good accuracy - 1 mark
+Comparison of model parameters done with observations from EDA - 1 mark
+
+BONUS --- Overall neatness + approach + explanation - 2 marks
+===================================================
