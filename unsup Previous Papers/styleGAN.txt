@@ -1,0 +1,11 @@
+The Style Generative Adversarial Network, or StyleGAN for short, is an addition to the GAN architecture that introduces significant modifications to the generator model. StyleGAN produces the simulated image sequentially, originating from a simple resolution and enlarging to a huge resolution (1024×1024).
+
+By transforming the input of each level individually, it examines the visual features that are manifested in that level, from standard features (pose, face shape) to minute details (hair color), without altering other levels.
+
+While GAN images became further vivid over time, one of their main hurdles is regulating their output, i.e. replacing explicit features such as pose, face shape, and hairstyle in an illustration of a face.
+
+The Style Generative Adversarial Network, or StyleGAN for short, is an addition to the GAN architecture that introduces significant modifications to the generator model. StyleGAN produces the simulated image sequentially, originating from a simple resolution and enlarging to a huge resolution (1024×1024).
+
+By transforming the input of each level individually, it examines the visual features that are manifested in that level, from standard features (pose, face shape) to minute details (hair color), without altering other levels.
+
+The resulting model is proficient in producing impressively photorealistic high-quality photos of faces and grants control over the characteristic of the created image at different specification levels by changing the style vectors and noise.

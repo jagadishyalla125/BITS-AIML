@@ -1,0 +1,13 @@
+Suppose you have been hired as a ML consultant for an Internet search engine company. 
+Describe how techniques like clustering and anomaly/outlier detection can help the 
+company by giving specific examples
+
+
+Data Mining is the process of discovering interesting knowledge from large amounts of data stored either in databases, data warehouses or other information repositories. There are various data mining functionalities and each of these can be applied in order to improve the company’s search engine.
+
+1. Clustering – is the process of grouping a set of physical or abstract objects into classes of similar objects. The objects are grouped based on the principle of increasing intraclass similarity and decreasing interclass similarity. In the context of a search engine, clustering can help to display the results that not only contain the keyword specified in the “search” box but also related results.
+For example. On entering ‘paintbrush’ in the search box, the search engine should not only display the results with keyword ‘paint’ but can also display the ones with keywords ‘canvas’ or ‘paint’ or ’easel’.
+
+Anomaly detection – Anomalies are the data objects that do not conform to the general behavior of the data. The analysis of anomalies is known as anomaly detection. In cases such as fraud detection, an anomaly is more important than the rest of the data. A search engine can use anomaly detection to avoid displaying results that are not relevant to the searched keyword.
+
+For example: a user might search for ‘heart attack’, anomaly detection would not allow ‘attack on china’, which is irrelevant to the searched topic, and is an outlier in this context, to be displayed.
