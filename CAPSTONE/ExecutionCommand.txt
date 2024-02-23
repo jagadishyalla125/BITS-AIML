@@ -1,0 +1,24 @@
+Syntax:
+cd path to folder having all deployment related files
+streamlit run deplpymentfilename.py
+
+Example:
+cd C:\Users\robin\OneDrive\Documents\PGCP AIML\CapstoneProject\ProjectFiles
+streamlit run AirlineCustomerSatisfaction_Deployment.py
+
+URL:
+http://localhost:8501/
+
+
+#!pip install yellowbrick
+#!pip install sweetviz
+#!pip install pmdarima
+#!pip install dfply
+#!pip install dython
+#!pip install plotnine
+#!pip install impyute
+#!pip install xgboost
+#!pip install lightgbm,imblearn,mlens
+#!pip install imblearn
+#!pip install mlens
+#!pip install graphviz
